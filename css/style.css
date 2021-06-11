@@ -1,0 +1,75 @@
+/* FUENTES PERSONALIZADAS */
+@font-face {
+	font-family: '';
+	src: url('') format('');
+}
+
+/* VARIABLES */
+
+/* CSS COMÚN */
+
+*{
+	box-sizing: border-box;
+	font-family: 'Electrolize', sans-serif;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+    }
+    
+:root{
+	--main-color:#2871cc;
+	--accent-color:#003f9a;
+}
+.text-main{
+	color: var(--main-color);
+}
+.text-accent{
+	color: var(--accent-color);
+}
+.bg-main{
+	background-color: var(--main-color);
+}
+.bg-accent{
+	background-color: var(--accent-color);
+}
+
+.bordeNav{
+	border-bottom: 2px solid white;
+}
+
+.bgHead{
+background-image: linear-gradient(black 10%, transparent, black 90%), url(../rsc/img/moon.jpg) ;
+background-position:center;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.borderCard{
+	border-bottom: 2px solid var(--accent-color);
+}
+
+.cohete{
+	background-size: contain;
+}
+
+.botoncito{
+	border-style: dashed;
+	background-color: var(--accent-color);
+}
+
+.piesFoto{
+	background-image: url(../rsc/img/nasa.jpg);
+	background-size: cover;
+}
+
+
+/* RESPONSIVE */
+
+/*ANIMACIONES */
+
+/*fontes legais google fonts
+Tema-- TEcnologia (Electrolize,  
+
+*/
